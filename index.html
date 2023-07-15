@@ -13,13 +13,14 @@
         <h3><i>by Jake Warden</i></h3>
     </div>
     <div id="player-entry" class="player-ent">
-        <input type="text" id="input-el" placeholder="Name" autocomplete="off">
-        <button id="savebtn-el">Enter Game</button>
+        <input type="text" onkeydown = "if (event.keyCode == 13) document.getElementById('savebtn-el').click()" id="input-el" placeholder="Name" autocomplete="off">
+        <button autofocus id="savebtn-el">Enter Game</button>
     </div>
     <div id="players" class="playerctnr">
         <div id="player-el" class="container"></div>
-            <div id="output-elone" class="output"></div>
-        <div id="computer-el" class="container"><u><br>Computer<br></u><span id="output-eltwo" class="output"></span></div>
+        <div id="output-elone" class="output"></div>
+        <div id="computer-el" class="container"><u><br>Computer<br></u><span id="output-eltwo" class="output"></span>
+        </div>
             
     </div>
     <div class="btn-el"> 

@@ -12,10 +12,10 @@ let choice = ['Rock','Paper','Scissors']
 let playerEl = []
 let computer =  randomChoice ()
 
-savePlayerEl.addEventListener("click", function (){
+    savePlayerEl.addEventListener("click", function (){
     playerEl.push(inputEl.value)
     inputEl.value = " "
-    renderName()
+    renderName()    
 })
  
 function renderGame(outputOne, outputTwo) {
@@ -33,8 +33,8 @@ function renderGame(outputOne, outputTwo) {
         return("You lost with scissors!");
     } else  (outputOne.textContent === outputTwo.textContent) 
         return("It's a draw!")
-
     }
+
 
 rock.addEventListener("click", function (){
     outputOne.textContent = choice[0]
