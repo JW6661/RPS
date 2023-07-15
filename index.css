@@ -15,6 +15,10 @@ html, body{
 h1 {
     align-self: center;
 }
+footer {
+    margin: 5px auto;
+}
+
 
 
 input {
@@ -26,11 +30,10 @@ input {
     padding: 5px 30px;
     text-align: center;
     border-radius: 8px;
-    margin: 10px auto;
+    margin: 0 auto 10px;
 }
 .container{
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin: 10px 0 0 0;
 }
 
 #rock-el {
@@ -57,9 +60,9 @@ input {
     text-shadow: -1px 1px 1px white; 
     font-size: 20px;
     border: none; 
-    padding: 10px 30px;
+    padding: 5px 30px;
     border-radius: 8px;
-    margin: 15px auto 0 auto;
+    margin: 10px auto 0 auto;
 }
 
 
