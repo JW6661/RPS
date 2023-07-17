@@ -112,12 +112,6 @@ function gameWinner () {
         return winLose.innerHTML = "You Lose!";
 }
 
-function autoReset (){
-    if (winLose === ("You Win!"));
-    else if ( winLose === ("You Lose!");
-    gameReset()
-}
-
 function gameReset (){
     window.location.reload();
   }
