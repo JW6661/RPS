@@ -10,6 +10,7 @@
 <body>
     <div id="game" class="container">
         <h1><u>Rock Paper Scissors</u></h1>
+        <h4>First to 5 Points Wins!</h4>
     </div>
     <div id="player-entry" class="player-ent">
         <input type="text" onkeydown = "if (event.keyCode == 13) document.getElementById('savebtn-el').click()" id="input-el" placeholder="Name" autocomplete="off">
@@ -28,7 +29,14 @@
         <button id="paper-el" class="buttons">Paper</button>
         <button id="scissors-el" class="buttons">Scissors</button>
     </div> 
-    <div id="game-score"></div>
+    <h2 id="win-lose"></h2>
+    <div id="game-result"></div>
+    <div id="game-scores">
+        <p>Player Score: <span id="player-score">0</span>
+        </p>
+        <p>Computer Score: <span id="computer-score">0</span>
+        </p>
+    </div>
     <button id="reset-el" class="buttons">Reset Game</button>
     <footer><i>by Jake Warden &reg;</i></footer>
     <script src="index.js"></script> 

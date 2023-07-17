@@ -105,7 +105,7 @@ input {
 .playerctnr {
     margin-top: 20px;
 }
-.output, #game-score {
+.output, #game-result {
     text-align: center;
     font-size: 14px;
     font-weight: bold;
@@ -121,10 +121,13 @@ input {
     text-align: center;
 }
 
-#game-score {
+#game-result {
     margin-top: 20px;
     color: white;
     text-shadow: -1px 1px 1px black;
+}
+#game-scores {
+    display: inline-block;
 }
 
 #rock-el:hover {
